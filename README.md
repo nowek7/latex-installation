@@ -1,7 +1,7 @@
 # Overview
 
-1. [LaTeX installation (with python) - Windows](latex/README.md)
-2. [Customization of LaTeX editor - WinEdt 10](winedt/README.md)
+1. [LaTeX installation (with python) - Windows](#latex-installation-(with-python)-windows)
+2. [Customization of LaTeX editor - WinEdt 10](#customization-of-latex-editor-winedt-10)
 
 ## LaTeX installation (with python) - Windows
 
@@ -65,6 +65,7 @@
 
 1. [Basic test file](./install/test-files/basic-test-file.tex)
 2. [Python test file](./install/test-files/python-intersecting-rings.tex)
+
 
 ## Customization of LaTex editor - WinEdt 10
 
