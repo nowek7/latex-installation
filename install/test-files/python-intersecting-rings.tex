@@ -1,0 +1,88 @@
+% Intersecting rings
+% Author: Dominique Wurtz
+% Source: http://www.nabble.com/Intersection-area-to15711124.html
+
+\documentclass{mwart}
+
+\usepackage{tikz}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{python}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\begin{comment}
+:Title: Intersecting rings
+:Tags: Clipping
+
+This example shows how to fill the intersection area of two rings.
+The operation requires you to apply the ``even odd rule`` to the clipping path. Unfortunately
+you can not set some options directly when specifying the clipping path. You can easily solve
+this problem by putting the path inside a scope. (See Chapter 14.7 in the manual for an
+explanation)
+
+:Author: Dominique Wurtz
+:Source: `pgf-users mailing list`_
+
+.. _pgf-users mailing list: http://www.nabble.com/Intersection-area-to15711124.html
+
+\end{comment}
+
+\begin{document}
+
+% Define the rings. Store them in macros to make things
+% more flexible.
+\def\ringa{(-1,0) circle (2) (-1,0) circle (3)}
+\def\ringb{(1,0) circle (2) (1,0) circle (3)}
+Tikz
+\vspace{1cm}
+\newline
+\begin{tikzpicture}
+    % First we fill the intersecting area
+    % The \clip command does not allow options, therefore
+    % we have to use a scope to set the even odd rule.
+    \begin{scope}[even odd rule]
+        % Define a clipping path. All paths outside ringa will
+        % be cut because the even odd rule is set.
+        \clip \ringa;
+        % Fill ringb. Since the even odd rule is set, only the
+        % ring will be filled, not the hole in the middle.
+        \fill[fill=orange] \ringb;
+    \end{scope}
+    % Then we draw the rings
+    \draw \ringa;
+    \draw \ringb;
+\end{tikzpicture}
+\vspace{1cm}
+\newline
+Python
+\vspace{1cm}
+\begin{figure}[h]
+\begin{python}
+from pyx import *
+from pyx.path import *
+
+left = circle(5, 5, 3)
+inner_left = circle(5, 5, 2)
+right = circle(7, 5, 3)
+inner_right = circle(7, 5, 2)
+
+clip = canvas.canvas([canvas.clip(left)])
+clip.fill(right, [color.cmyk.Orange])
+clip.fill(inner_right, [color.rgb.white])
+clip.fill(inner_left, [color.rgb.white])
+
+c = canvas.canvas()
+c.insert(clip)
+
+c.stroke(right)
+c.stroke(inner_right)
+c.stroke(left)
+c.stroke(inner_left)
+
+c.writePDFfile("Rings")
+\end{python}
+\includegraphics{Rings}
+\end{figure}
+
+\end{document} 

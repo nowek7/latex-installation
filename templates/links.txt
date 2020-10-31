@@ -1,0 +1,5 @@
+https://tex.stackexchange.com/questions/210857/latex-vertical-daily-schedule
+
+https://tex.stackexchange.com/questions/59866/is-it-possible-to-use-some-sort-of-internationalization-in-latex
+
+https://tex.stackexchange.com/questions/64131/implementing-switch-cases
