@@ -1,9 +1,9 @@
 # Overview
 
-1. [LaTeX installation (with python) - Windows](#latex-installation-(with-python)-windows)
-2. [Customization of LaTeX editor - WinEdt 10](#customization-of-latex-editor-winedt-10)
+1. LaTeX installation (with python) on Windows
+2. Customization of LaTeX editor - WinEdt 10
 
-## LaTeX installation (with python) - Windows
+## LaTeX installation (with python) on Windows
 
 1. Download and install [MikTeX](https://miktex.org/download) and [gnuplot (optional)](https://sourceforge.net/projects/gnuplot/files/gnuplot/5.2.8/)
    - Open `MikTeX` and switch to *MikTeX administrator mode*
@@ -34,10 +34,10 @@
      - Click `Macros` tab and click `Execute Current Macro`
 
      - Next will be showed following window. Write language (for me is *Polish*) and click `OK`
-      <img style="margin: 1rem auto; display: block;" src="./install/images/language-name-dict-winedt.png" alt="Insert language name">
+       ![Insert language name](./install/images/language-name-dict-winedt.png)
 
      - Next will show last window. Write filename of dictionary with extension
-       <img style="margin: 1rem auto; display: block;" src="./install/images/dictionary-name-winedt.png" alt="Insert dictionary name">
+       ![Insert dictionary name](./install/images/dictionary-name-winedt.png)
 
    - [TexStudio (Free license)](https://www.texstudio.org/)
      - Click `Options` and choose `Configure TeXStudio`
@@ -50,8 +50,7 @@
    - Download [Python](https://www.python.org/downloads/) and install it. Remember to check the option to add `python` to `PATH` during installation.
 
    - Download [UnxUtils](https://sourceforge.net/projects/unxutils/) and install it. Next, you must add to the user `path` this `some-path\UnxUtils\usr\local\wbin`.
-
-   <img style="margin: 1rem auto; display: block;" src="./install/images/unx-utils-path.png" alt="UnxUtils">
+     ![UnxUtils](./install/images/unx-utils-path.png)
 
    - Open a command prompt and write `pip install pyx`
 
@@ -85,23 +84,22 @@ If some problems come up, just analyze how works adding elements mechanism to Wi
 ### Screenshots
 
 #### If any changes have been made in any file then after saving it, you must click the `Load current script` button
-<img style="margin: 1rem auto; display: block;" src="./winedt/images/winedt-changes-click.png" alt="Toolbar">
+![Winedt](./winedt/images/winedt-changes-click.png)
 
 #### Toolbar
 
-<img style="margin: 1rem auto; display: block;" src="./winedt/images/toolbar-winedt.png" alt="Toolbar">
+![Toolbar](./winedt/images/toolbar-winedt.png)
 
 #### Theme
 
-<img style="margin: 1rem auto; display: block;" src="./winedt/images/theme-winedt.png" alt="Theme">
+![Theme](./winedt/images/theme-winedt.png)
 
 #### After changes
 
 After clicking the `Load current script` button, the changes should be shown
 
-<img style="margin: 1rem auto; display: block;" src="./winedt/images/theme-menu-after-changes-winedt.png" alt="Theme menu after changes">
-<img style="margin: 1rem auto; display: block;" src="./winedt/images/toolbar-menu-after-changes-winedt.png" alt="Toolbar menu after changes">
-
+![Theme menu after changes](./winedt/images/theme-menu-after-changes-winedt.png)
+![Toolbar menu after changes](./winedt/images/toolbar-menu-after-changes-winedt.png)
 
 ### Useful links
 
