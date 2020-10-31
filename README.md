@@ -15,7 +15,7 @@
    - Click `Tasks` tab and click `Refresh file name database`
       <img style="margin: 1rem auto; display: block;" src="./install/images/miktex-refresh-name-databases.png" alt="Refresh file name database">
 
-2. (*Optional*) Download `logicpuzzle` from [here](./packages/logicpuzzle)
+2. (*Optional*) Download `logicpuzzle` from [here](./install/packages)
    - Add logicpuzzle folder (package) to `some-path\MiKTeX 2.9\tex\latex`
    - Open `MikTeX` and switch to *MikTeX administrator mode*
    - Click the `Tasks` tab and click `Refresh file name database` as like in the first point
@@ -27,9 +27,9 @@
        - Click `options` tab and choose `Execution Modes...`
          <img style="margin: 1rem auto; display: block;" src="./install/images/exec-mode-winedt10.png" alt="Insert language name">
 
-     - Download dictionary with `.dic` extension. In this repository is only [polish dictionary](./dictionary/pl_huge.dic)
+     - Download dictionary with `.dic` extension. In this repository is only [polish dictionary](./install/dictionary/pl.dic)
 
-     - Download [dictionary installation macro](./dictionary/InstallDict.edt) and next open it in editor
+     - Download [dictionary installation macro](./install/dictionary/InstallDict.edt) and next open it in editor
 
      - Click `Macros` tab and click `Execute Current Macro`
 
@@ -61,40 +61,40 @@
 
    - How to install this extension is described on the clicked at link website
 
-## Example test files
+### Example test files
 
 1. [Basic test file](./install/test-files/basic-test-file.tex)
 2. [Python test file](./install/test-files/python-intersecting-rings.tex)
 
-# Customization of LaTex editor - WinEdt 10
+## Customization of LaTex editor - WinEdt 10
 
-## How to add own styles and files to your WinEdt 10 editor
+### How to add own styles and files to your WinEdt 10 editor
 
 - Folder, where you can add your own definition of the toolbar &#8594; `C:\Program Files\WinEdt Team\WinEdt 10\ConfigEx\Toolbars`
 - Folder, where you can add your editor theme/skin &#8594; `C:\Program Files\WinEdt Team\WinEdt 10\ConfigEx\Themes`
 - Folder, where you must move files from `user-options` &#8594; `C:\Users\user\AppData\Roaming\WinEdt Team\WinEdt 10\ConfigEx`
 
-## Troubleshooting
+### Troubleshooting
 
 Any change in `toolbar` or `theme` files make it that, you must make some changes in a few lines in files from `user-options`.
 The best way to do this is find old names and replace them with new ones.
 
 If some problems come up, just analyze how works adding elements mechanism to WinEdt interface, based on originals instructions/commands.
 
-## Screenshots
+### Screenshots
 
-### If any changes have been made in any file then after saving it, you must click the `Load current script` button
+#### If any changes have been made in any file then after saving it, you must click the `Load current script` button
 <img style="margin: 1rem auto; display: block;" src="./winedt/images/winedt-changes-click.png" alt="Toolbar">
 
-### Toolbar
+#### Toolbar
 
 <img style="margin: 1rem auto; display: block;" src="./winedt/images/toolbar-winedt.png" alt="Toolbar">
 
-### Theme
+#### Theme
 
 <img style="margin: 1rem auto; display: block;" src="./winedt/images/theme-winedt.png" alt="Theme">
 
-### After changes
+#### After changes
 
 After clicking the `Load current script` button, the changes should be shown
 
@@ -102,7 +102,7 @@ After clicking the `Load current script` button, the changes should be shown
 <img style="margin: 1rem auto; display: block;" src="./winedt/images/toolbar-menu-after-changes-winedt.png" alt="Toolbar menu after changes">
 
 
-## Useful links
+### Useful links
 
 - [Editor themes](https://atomcorp.github.io/themes/)
 
