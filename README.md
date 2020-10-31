@@ -13,7 +13,7 @@
    - Go to `Updates` tab and click `update` button (you can also change the source of installation in the `Install from` field)
 
    - Click `Tasks` tab and click `Refresh file name database`
-      <img style="margin: 1rem auto; display: block;" src="./install/images/miktex-refresh-name-databases.png" alt="Refresh file name database">
+     ![Refresh file name database](./install/images/miktex-refresh-name-databases.png)
 
 2. (*Optional*) Download `logicpuzzle` from [here](./install/packages)
    - Add logicpuzzle folder (package) to `some-path\MiKTeX 2.9\tex\latex`
@@ -24,8 +24,8 @@
    - [WinEdt (Commercial license)](https://www.winedt.com/download.html)
      - Configure settings in WinEdt
 
-       - Click `options` tab and choose `Execution Modes...`
-         <img style="margin: 1rem auto; display: block;" src="./install/images/exec-mode-winedt10.png" alt="Insert language name">
+       - Click the `options` tab and choose `Execution Modes...` and fill switches options like on the image
+         ![Insert language name](./install/images/exec-mode-winedt10.png)
 
      - Download dictionary with `.dic` extension. In this repository is only [polish dictionary](./install/dictionary/pl.dic)
 
