@@ -50,7 +50,7 @@
    - Download [Python](https://www.python.org/downloads/) and install it. Remember to check the option to add `python` to `PATH` during installation.
 
    - Download [UnxUtils](https://sourceforge.net/projects/unxutils/) and install it. Next, you must add to the user `path` this `some-path\UnxUtils\usr\local\wbin`.
-     ![UnxUtils](./install/images/unx-utils-path.png)
+     <!-- ![UnxUtils](./install/images/unx-utils-path.png) -->
 
    - Open a command prompt and write `pip install pyx`
 
