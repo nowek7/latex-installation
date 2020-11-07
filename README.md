@@ -66,7 +66,7 @@
 2. [Python test file](./install/test-files/python-intersecting-rings.tex)
 
 
-## Customization of LaTex editor - WinEdt 10
+## Customization of LaTeX editor - WinEdt 10
 
 ### How to add own styles and files to your WinEdt 10 editor
 
