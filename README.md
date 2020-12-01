@@ -70,21 +70,19 @@
 
 ### How to add own styles and files to your WinEdt 10 editor
 
-- Folder, where you can add your own definition of the toolbar &#8594; `C:\Program Files\WinEdt Team\WinEdt 10\ConfigEx\Toolbars`
-- Folder, where you can add your editor theme/skin &#8594; `C:\Program Files\WinEdt Team\WinEdt 10\ConfigEx\Themes`
+- Folder, where you can add your own definition of the toolbar &#8594; `...\WinEdt Team\WinEdt 10\ConfigEx\Toolbars`
+- Folder, where you can add your editor theme/skin &#8594; `...\WinEdt 10\ConfigEx\Themes`
 - Folder, where you must move files from `user-options` &#8594; `C:\Users\user\AppData\Roaming\WinEdt Team\WinEdt 10\ConfigEx`
 
-### Troubleshooting
+#### Troubleshooting
 
-Any change in `toolbar` or `theme` files make it that, you must make some changes in a few lines in files from `user-options`.
-The best way to do this is find old names and replace them with new ones.
+Any change in `toolbar` or `theme` files make it to make some changes in a few lines in files from the `user-options` folder.
+The best way to do this is to find old names and replace them with new ones.
 
-If some problems come up, just analyze how works adding elements mechanism to WinEdt interface, based on originals instructions/commands.
+If some problems come up, analyze how to functioning adding elements mechanism to the WinEdt interface, based on originals instructions/commands.
 
-### Screenshots
-
-#### If any changes have been made in any file then after saving it, you must click the `Load current script` button
-![Winedt](./winedt/images/winedt-changes-click.png)
+#### If any changes have been made, you must click the `Load current script` button
+![Winedt](./winedt/images/changes-click-winedt.png)
 
 #### Toolbar
 
@@ -96,10 +94,22 @@ If some problems come up, just analyze how works adding elements mechanism to Wi
 
 #### After changes
 
-After clicking the `Load current script` button, the changes should be shown
+After clicking the `Load current script` button, the changes be shown.
 
 ![Theme menu after changes](./winedt/images/theme-menu-after-changes-winedt.png)
 ![Toolbar menu after changes](./winedt/images/toolbar-menu-after-changes-winedt.png)
+
+---
+
+### Templates
+
+- Can you add your own template e.g in existing folder &#8594; `...\WinEdt Team\WinEdt 10\Templates\Doc`
+- The next step is to modify the `Templates.ini` file - `...\WinEdt 10\ConfigEx\Templates.ini`. In the `templates` folder is an example file.
+- After made made changes restart the WinEdt or click `Load current script` for the`MainMenu.ini`
+
+![Templates](./winedt/images/templates-winedt.png)
+
+---
 
 ### Useful links
 
@@ -108,6 +118,8 @@ After clicking the `Load current script` button, the changes should be shown
 ## Notes
 
 The example theme in the repository was created based on [Gatito Theme](https://github.com/pawelgrzybek/gatito-theme) and Winedt Midnight Blue theme.
+
+---
 
 Feel free to write any suggestions :smirk:
 
