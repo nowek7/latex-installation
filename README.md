@@ -13,7 +13,7 @@
    - Go to `Updates` tab and click `update` button (you can also change the source of installation in the `Install from` field)
 
    - Click `Tasks` tab and click `Refresh file name database`
-     ![Refresh file name database](./install/images/miktex-refresh-name-databases.png)
+     ![Refresh file name database](./install/images/miktex_refresh_name_databases.png)
 
 2. (*Optional*) Download `logicpuzzle` from [here](./install/packages)
    - Add logicpuzzle folder (package) to `some-path\MiKTeX 2.9\tex\latex`
@@ -25,7 +25,7 @@
      - Configure settings in WinEdt
 
        - Click the `options` tab and choose `Execution Modes...` and fill switches options like on the image
-         ![Insert language name](./install/images/exec-mode-winedt10.png)
+         ![Insert language name](./install/images/execution_mode_winedt.png)
 
      - Download dictionary with `.dic` extension. In this repository is only [polish dictionary](./install/dictionary/pl.dic)
 
@@ -34,10 +34,10 @@
      - Click `Macros` tab and click `Execute Current Macro`
 
      - Next will be showed following window. Write language (for me is *Polish*) and click `OK`
-       ![Insert language name](./install/images/language-name-dict-winedt.png)
+       ![Insert language name](./install/images/language_name_dict_winedt.png)
 
-     - Next will show last window. Write filename of dictionary with extension
-       ![Insert dictionary name](./install/images/dictionary-name-winedt.png)
+     - Next will show the last window. Write filename of dictionary with extension
+       ![Insert dictionary name](./install/images/dictionary_name_winedt.png)
 
    - [TexStudio (Free license)](https://www.texstudio.org/)
      - Click `Options` and choose `Configure TeXStudio`
@@ -82,22 +82,26 @@ The best way to do this is to find old names and replace them with new ones.
 If some problems come up, analyze how to functioning adding elements mechanism to the WinEdt interface, based on originals instructions/commands.
 
 #### If any changes have been made, you must click the `Load current script` button
-![Winedt](./winedt/images/changes-click-winedt.png)
+![Winedt](./winedt/images/changes_click.png)
 
-#### Toolbar
+### Toolbar
 
-![Toolbar](./winedt/images/toolbar-winedt.png)
+![Toolbar](./winedt/images/toolbar.png)
 
-#### Theme
+![Toolbar](./winedt/images/main_menu_toolbar.png)
 
-![Theme](./winedt/images/theme-winedt.png)
+![Toolbar](./winedt/images/main_menu_toolbar_details.png)
 
-#### After changes
+### Theme
+
+![Theme](./winedt/images/theme.png)
+
+### After changes
 
 After clicking the `Load current script` button, the changes be shown.
 
-![Theme menu after changes](./winedt/images/theme-menu-after-changes-winedt.png)
-![Toolbar menu after changes](./winedt/images/toolbar-menu-after-changes-winedt.png)
+![Theme menu after changes](./winedt/images/theme_menu_after_changes.png)
+![Toolbar menu after changes](./winedt/images/toolbar_menu_after_changes.png)
 
 ---
 
@@ -107,7 +111,7 @@ After clicking the `Load current script` button, the changes be shown.
 - The next step is to modify the `Templates.ini` file - `...\WinEdt 10\ConfigEx\Templates.ini`. In the `templates` folder is an example file.
 - After made made changes restart the WinEdt or click `Load current script` for the`MainMenu.ini`
 
-![Templates](./winedt/images/templates-winedt.png)
+![Templates](./winedt/images/templates.png)
 
 ---
 
