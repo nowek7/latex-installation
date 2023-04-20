@@ -13,7 +13,7 @@
    - Go to `Updates` tab and click `update` button (you can also change the source of installation in the `Install from` field)
 
    - Click `Tasks` tab and click `Refresh file name database`
-     ![Refresh file name database](./install/images/miktex_refresh_name_databases.png)
+     ![Refresh file name database](./installation/miktex/images/miktex_refresh_name_databases.png)
 
 2. (*Optional*) Download `logicpuzzle` from [here](./install/packages)
    - Add logicpuzzle folder (package) to `some-path\MiKTeX 2.9\tex\latex`
@@ -25,19 +25,19 @@
      - Configure settings in WinEdt
 
        - Click the `options` tab and choose `Execution Modes...` and fill switches options like on the image
-         ![Insert language name](./install/images/execution_mode_winedt.png)
+         ![Insert language name](./installation/images/execution_mode_winedt.png)
 
-     - Download dictionary with `.dic` extension. In this repository is only [polish dictionary](./install/dictionary/pl.dic)
+     - Download dictionary with `.dic` extension. In this repository is only [polish dictionary](./installation/dictionary/pl.dic)
 
-     - Download [dictionary installation macro](./install/dictionary/InstallDict.edt) and next open it in editor
+     - Download [dictionary installation macro](./installation/dictionary/InstallDict.edt) and next open it in editor
 
      - Click `Macros` tab and click `Execute Current Macro`
 
      - Next will be showed following window. Write language (for me is *Polish*) and click `OK`
-       ![Insert language name](./install/images/language_name_dict_winedt.png)
+       ![Insert language name](./installation/images/language_name_dict_winedt.png)
 
      - Next will show the last window. Write filename of dictionary with extension
-       ![Insert dictionary name](./install/images/dictionary_name_winedt.png)
+       ![Insert dictionary name](./winedt/images/dictionary_name_winedt.png)
 
    - [TexStudio (Free license)](https://www.texstudio.org/)
      - Click `Options` and choose `Configure TeXStudio`
@@ -50,10 +50,9 @@
    - Download [Python](https://www.python.org/downloads/) and install it. Remember to check the option to add `python` to `PATH` during installation.
 
    - Download [UnxUtils](https://sourceforge.net/projects/unxutils/) and install it. Next, you must add to the user `path` this `some-path\UnxUtils\usr\local\wbin`.
-     <!-- ![UnxUtils](./install/images/unx-utils-path.png) -->
+     ![UnxUtils](./installation/common/unx_utils_path.png)
 
    - Open a command prompt and write `pip install pyx`
-
 
 5. (*Optional*) Installation PythonTeX extension in WinEdt
    - Download [PythonTeX (supported by WinEdt)](http://www.winedt.org/config/menus/PythonTeX.html)
@@ -62,9 +61,8 @@
 
 ### Example test files
 
-1. [Basic test file](./install/test-files/basic-test-file.tex)
-2. [Python test file](./install/test-files/python-intersecting-rings.tex)
-
+1. [Basic test file](./installation/examples/basic_test.tex)
+2. [Python test file](./installation/examples/python_intersecting_rings.tex)
 
 ## Customization of LaTeX editor - WinEdt 10
 
